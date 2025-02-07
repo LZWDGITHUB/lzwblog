@@ -12,12 +12,17 @@ export const navbar = [
     ]
   },
   {
+    text: '博客',
+    prefix: '/pages/blog/',
+    children: ['instruction.md']
+  },
+  {
     text: '前端',
     children: [
       {
         text: 'CSS',
         prefix: '/pages/frontend/css/',
-        children: ['flex.md']
+        children: ['flex.md', 'grid.md']
       }
     ]
   }
