@@ -1,6 +1,10 @@
 <template><div><h3 id="查看远程仓库的路径" tabindex="-1"><a class="header-anchor" href="#查看远程仓库的路径"><span>查看远程仓库的路径</span></a></h3>
 <div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre v-pre><code><span class="line">git remote -v</span>
 <span class="line"></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div></div></template>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><h3 id="ios端微信公众号页面获取签名与权限的坑" tabindex="-1"><a class="header-anchor" href="#ios端微信公众号页面获取签名与权限的坑"><span>IOS端微信公众号页面获取签名与权限的坑</span></a></h3>
+<p>问题：第一次获取权限会提示签名错误，刷新页面就不报错了，在安卓端没问题；</p>
+<p>原因：在安卓端获取签名需要传当前页面的URL，但是在IOS端需要传第一次进入该网站时的URL;</p>
+<p>解决方案：我遇到问题时是使用uniapp开发的h5,在app.vue中有onLaunch方法，是应用初始化时触发一次(页面刷新也是初始化)，我在这里记录应用初始化时的url,然后在其他页面使用时判断是ios端就使用这个url。</p>
+</div></template>
 
 

@@ -1,4 +1,4 @@
-import{_ as s,c as a,e as i,o as l}from"./app-vLyPQ-m7.js";const e={};function v(d,n){return l(),a("div",null,n[0]||(n[0]=[i(`<div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line"> // 1、查看已经安装的node版本</span>
+import{_ as s,c as a,a as i,o as l}from"./app-q0fPpU2p.js";const e={};function v(d,n){return l(),a("div",null,n[0]||(n[0]=[i(`<div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line"> // 1、查看已经安装的node版本</span>
 <span class="line">nvm ls</span>
 <span class="line"> </span>
 <span class="line">// 2、查看可以安装的node版本</span>
