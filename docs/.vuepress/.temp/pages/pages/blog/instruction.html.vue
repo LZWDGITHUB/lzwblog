@@ -1,4 +1,5 @@
-<template><div><h3 id="项目node版本" tabindex="-1"><a class="header-anchor" href="#项目node版本"><span>项目node版本</span></a></h3>
+<template><div><p><a href="https://v2.vuepress.vuejs.org/zh/" target="_blank" rel="noopener noreferrer">VuePress</a></p>
+<h3 id="项目node版本" tabindex="-1"><a class="header-anchor" href="#项目node版本"><span>项目node版本</span></a></h3>
 <div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre v-pre><code><span class="line">// 当前项目需要最小18.19.0</span>
 <span class="line">// 查看已经安装的node版本</span>
 <span class="line">nvm ls</span>

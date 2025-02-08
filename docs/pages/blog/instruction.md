@@ -3,6 +3,8 @@ lang: zh-CN
 title: 指令
 description: 博客常用命令
 ---
+[VuePress](https://v2.vuepress.vuejs.org/zh/)
+
 ### 项目node版本
 
 ```

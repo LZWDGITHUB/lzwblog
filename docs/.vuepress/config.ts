@@ -3,6 +3,7 @@ import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress'
 import { navbar } from './config/index'
 import { slimsearchPlugin } from '@vuepress/plugin-slimsearch'
+// import { searchPlugin } from '@vuepress/plugin-search'
 
 export default defineUserConfig({
   dest: './dist', // 设置编译后的输出目录./ROOT代表在工程的根目录下生成一个ROOT文件，里面是编译好的文件，可以拿ROOT直接部署
@@ -50,6 +51,9 @@ export default defineUserConfig({
     navbar: navbar
   }),
   plugins: [
+    // searchPlugin({
+    //   // 配置项
+    // }),
     slimsearchPlugin({
       // 配置项
     }),
