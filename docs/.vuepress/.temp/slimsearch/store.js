@@ -1,1 +1,0 @@
-export const store = ["/","/pages/blog/instruction.html","/pages/other/","/pages/frontend/css/flex.html","/pages/frontend/css/grid.html","/pages/frontend/nvm/","/pages/project/yingbang/","/404.html"];
