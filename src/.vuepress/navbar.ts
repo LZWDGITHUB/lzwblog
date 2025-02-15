@@ -26,7 +26,11 @@ export default navbar([
       {
         text: 'TypeScript',
         prefix: '/pages/frontend/TypeScript/',
-        children: ['README.md']
+        children: ['README.md','decorator.md']
+      },
+      {
+        text: '微信小程序',
+        link: '/pages/frontend/WeChat.md',
       }
     ]
   },
