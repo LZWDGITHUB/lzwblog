@@ -18,6 +18,15 @@ export default navbar([
       {
         text: '博客',
         link: '/pages/frontend/blog.md',
+      },
+      {
+        text: 'vue3',
+        link: '/pages/frontend/vue3.md',
+      },
+      {
+        text: 'TypeScript',
+        prefix: '/pages/frontend/TypeScript/',
+        children: ['README.md']
       }
     ]
   },
