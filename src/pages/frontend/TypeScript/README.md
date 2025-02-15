@@ -12,3 +12,5 @@ date: 2025-02-15
 ---
 
 https://blog.csdn.net/ingenuou_/article/details/142790425
+
+<PDF url="//lzwdgithub.github.io/lzwblog/pages/frontend/TypeScript/TypeScript.pdf" />
